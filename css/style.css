@@ -92,6 +92,55 @@ h1 {
 .item-text {
   padding: 0 20px;
 }
+.left-name {
+  text-align: right;
+}
+.testimonial-area {
+  background-image: url(../images/shapes/top-banner.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 140px;
+}
+.testimonial-top {
+  text-align: center;
+}
+.customer-text {
+  font-size: 40px;
+  font-weight: 600;
+}
+.contact-center {
+  text-align: center;
+  padding: 0 0 40px 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-image: linear-gradient(
+    45deg,
+    rgb(253, 164, 129),
+    rgb(240, 92, 65)
+  );
+  padding: 15px 30px;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 footer {
   background-color: rgb(22, 22, 48);
   text-align: center;
