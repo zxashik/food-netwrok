@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  padding: 0;
 }
 .orange-text {
   color: orange;
@@ -8,6 +9,7 @@ body {
 h1 {
   font-weight: 700;
 }
+
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(
@@ -20,9 +22,12 @@ h1 {
   color: white;
   font-weight: 700;
 }
+.order {
+  padding-top: 50px;
+}
 .flex-style {
   display: flex;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 .header {
   padding-top: 40px;
@@ -46,8 +51,55 @@ h1 {
 }
 #img-width {
   width: 70%;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .about-para-height {
   padding: 5% 30% 18% 0;
+}
+.text-center {
+  text-align: center;
+}
+.recipies {
+  padding-bottom: 80px;
+}
+.reci-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.recipies-area {
+  display: flex;
+  box-sizing: border-box;
+  width: 90%;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.item {
+  width: 370px;
+  margin: 10px 35px 10px 10px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.item-img {
+  width: 95%;
+  display: block;
+  padding: 10px 0 0px 8px;
+}
+.item-text {
+  padding: 0 20px;
+}
+footer {
+  background-color: rgb(22, 22, 48);
+  text-align: center;
+  padding: 40px 0;
+}
+.gray-text {
+  color: rgb(156, 156, 156);
+}
+.white-text {
+  color: whitesmoke;
 }
